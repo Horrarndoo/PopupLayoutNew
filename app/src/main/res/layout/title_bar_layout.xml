@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zyw.horrarndoo.popuplayout.view.TitleBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tb_title"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@mipmap/close"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="Horrarndoo"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/share"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/search"/>
+</com.zyw.horrarndoo.popuplayout.view.TitleBar>
