@@ -9,4 +9,4 @@
 
 ![https://github.com/Horrarndoo/PopupLayoutNew/blob/master/app/assets/demo.gif?raw=true](https://github.com/Horrarndoo/PopupLayout/blob/master/app/assets/demo.gif?raw=true)
 
-详细见博客：[Android自定义控件：从零开始实现魅族flyme6应用市场应用详情弹出式layout](http://blog.csdn.net/oQinYou/article/details/74531688)
+详细见博客：[Android自定义控件：NestedScrolling实现仿魅族flyme6应用市场应用详情弹出式layout](http://blog.csdn.net/oqinyou/article/details/77525064)
